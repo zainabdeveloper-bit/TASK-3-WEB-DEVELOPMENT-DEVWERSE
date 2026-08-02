@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contacts App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Contacts App</h1>
+
+<div class="form">
+    <input type="text" id="name" placeholder="Enter Name">
+    <input type="text" id="phone" placeholder="Enter Phone">
+    <input type="email" id="email" placeholder="Enter Email">
+
+    <button onclick="addContact()" id="addBtn">Add Contact</button>
+
+<button onclick="updateContact()" id="updateBtn" style="display:none;">
+    Update Contact
+</button>
+</div>
+
+
+<h2>All Contacts</h2>
+
+<div id="contactList"></div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
